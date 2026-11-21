@@ -35,7 +35,9 @@ The practice screenshots come from the bundled replay (**synthetic** numbers, la
 
 ## Walkthrough video
 
-A narrated walkthrough (2 min) is attached to the [latest release](https://github.com/syncaimain/upbeat/releases/latest). It replays the bundled synthetic session through the same engine, so it shows the app, not a live person. The live demo is a separate video.
+**Live demo:** https://www.youtube.com/watch?v=CyIoM0PCIkU
+
+**Narrated walkthrough (2 min):** https://youtu.be/4gLrL1Pff0o (also attached to the [latest release](https://github.com/syncaimain/upbeat/releases/latest)). It replays the bundled synthetic session through the same engine, so it shows the app, not a live person. The live demo is a separate video.
 
 The narration is **Kokoro-82M** (Apache-2.0), an open-source voice model run offline through kokoro-onnx. To rebuild the video:
 

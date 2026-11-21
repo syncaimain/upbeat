@@ -25,9 +25,13 @@ The SmartSpectra breathing trace is the instrument.
 
 ## Demo
 
-**Live demo (unedited, real breathing):** `<!-- PASTE YOUR LIVE VIDEO LINK HERE -->`
+**Live demo:**
 
-**Narrated walkthrough:** [walkthrough video](https://github.com/syncaimain/upbeat/releases/latest). This one replays the session bundled with the app, which is scripted, synthetic breathing numbers run through the same engine, so you can see every feature without a camera. The narration uses Kokoro-82M, an open-source voice, offline.
+{% embed https://www.youtube.com/watch?v=CyIoM0PCIkU %}
+
+**Narrated walkthrough:** this one replays the session bundled with the app, which is scripted, synthetic breathing numbers run through the same engine, so you can see every feature without a camera. The narration uses Kokoro-82M, an open-source voice, offline.
+
+{% embed https://youtu.be/4gLrL1Pff0o %}
 
 **Try it without a camera or key:** clone the repo, run `npm install && npm run build && npm start`, then choose **Hear a recorded session**.
 
