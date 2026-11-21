@@ -1,0 +1,46 @@
+{
+  "name": "upbeat",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A virtual choir that enters on your breath, at the tempo your breath sets. Built on the Presage SmartSpectra SDK.",
+  "main": "out/main/index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "start": "electron-vite preview",
+    "typecheck": "tsc --noEmit -p tsconfig.node.json && svelte-check --tsconfig ./tsconfig.json --threshold error",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "electron-vite build && playwright test",
+    "fixture": "tsx scripts/make-synthetic-fixture.ts",
+    "analyze": "tsx scripts/analyze-fixtures.ts",
+    "samples": "node scripts/prepare-samples.mjs",
+    "probe": "electron-vite build && electron . --probe",
+    "walkthrough:capture": "electron-vite build && node scripts/walkthrough/capture.mjs walkthrough-capture"
+  },
+  "engines": {
+    "node": ">=20.19"
+  },
+  "dependencies": {
+    "@fontsource/cormorant-garamond": "^5.3.0",
+    "@fontsource/cormorant-sc": "^5.3.0",
+    "@fontsource/source-sans-3": "^5.3.1",
+    "@smartspectra/node-sdk": "^3.5.0",
+    "tone": "^15.1.22"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@sveltejs/vite-plugin-svelte": "^7.3.1",
+    "@tsconfig/svelte": "^5.0.9",
+    "@types/node": "^22.20.5",
+    "electron": "^45.4.1",
+    "electron-vite": "^6.0.0",
+    "svelte": "^5.58.0",
+    "svelte-check": "^4.7.8",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.8",
+    "vitest": "^4.1.12"
+  }
+}

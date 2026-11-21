@@ -1,0 +1,170 @@
+[
+  {
+    "file": "vc_A2.wav",
+    "fileNote": "A2",
+    "measuredHz": 219.4,
+    "note": "A3",
+    "cents": -4
+  },
+  {
+    "file": "vc_B1.wav",
+    "fileNote": "B1",
+    "measuredHz": 123.4,
+    "note": "B2",
+    "cents": -1
+  },
+  {
+    "file": "vc_C1.wav",
+    "fileNote": "C1",
+    "measuredHz": 65.4,
+    "note": "C2",
+    "cents": -1
+  },
+  {
+    "file": "vc_C3.wav",
+    "fileNote": "C3",
+    "measuredHz": 261.7,
+    "note": "C4",
+    "cents": 0
+  },
+  {
+    "file": "vc_D2.wav",
+    "fileNote": "D2",
+    "measuredHz": 147.1,
+    "note": "D3",
+    "cents": 3
+  },
+  {
+    "file": "vc_E1.wav",
+    "fileNote": "E1",
+    "measuredHz": 82.2,
+    "note": "E2",
+    "cents": -5
+  },
+  {
+    "file": "vc_F2.wav",
+    "fileNote": "F2",
+    "measuredHz": 174.6,
+    "note": "F3",
+    "cents": 0
+  },
+  {
+    "file": "vc_G1.wav",
+    "fileNote": "G1",
+    "measuredHz": 97.9,
+    "note": "G2",
+    "cents": -2
+  },
+  {
+    "file": "vla_A3.wav",
+    "fileNote": "A3",
+    "measuredHz": 440.4,
+    "note": "A4",
+    "cents": 2
+  },
+  {
+    "file": "vla_B2.wav",
+    "fileNote": "B2",
+    "measuredHz": 246.9,
+    "note": "B3",
+    "cents": 0
+  },
+  {
+    "file": "vla_C2.wav",
+    "fileNote": "C2",
+    "measuredHz": 130.9,
+    "note": "C3",
+    "cents": 1
+  },
+  {
+    "file": "vla_C4.wav",
+    "fileNote": "C4",
+    "measuredHz": 522.9,
+    "note": "C5",
+    "cents": -1
+  },
+  {
+    "file": "vla_D3.wav",
+    "fileNote": "D3",
+    "measuredHz": 293.9,
+    "note": "D4",
+    "cents": 2
+  },
+  {
+    "file": "vla_E2.wav",
+    "fileNote": "E2",
+    "measuredHz": 164.8,
+    "note": "E3",
+    "cents": 0
+  },
+  {
+    "file": "vla_F3.wav",
+    "fileNote": "F3",
+    "measuredHz": 349.4,
+    "note": "F4",
+    "cents": 1
+  },
+  {
+    "file": "vla_G2.wav",
+    "fileNote": "G2",
+    "measuredHz": 195.9,
+    "note": "G3",
+    "cents": -1
+  },
+  {
+    "file": "vln_A4.wav",
+    "fileNote": "A4",
+    "measuredHz": 440.6,
+    "note": "A4",
+    "cents": 3
+  },
+  {
+    "file": "vln_C4.wav",
+    "fileNote": "C4",
+    "measuredHz": 265.4,
+    "note": "C4",
+    "cents": 25
+  },
+  {
+    "file": "vln_C5.wav",
+    "fileNote": "C5",
+    "measuredHz": 522.6,
+    "note": "C5",
+    "cents": -2
+  },
+  {
+    "file": "vln_E4.wav",
+    "fileNote": "E4",
+    "measuredHz": 330.7,
+    "note": "E4",
+    "cents": 6
+  },
+  {
+    "file": "vln_E5.wav",
+    "fileNote": "E5",
+    "measuredHz": 661,
+    "note": "E5",
+    "cents": 4
+  },
+  {
+    "file": "vln_G3.wav",
+    "fileNote": "G3",
+    "measuredHz": 195.7,
+    "note": "G3",
+    "cents": -3
+  },
+  {
+    "file": "vln_G4.wav",
+    "fileNote": "G4",
+    "measuredHz": 391.9,
+    "note": "G4",
+    "cents": -1
+  },
+  {
+    "file": "vln_G5.wav",
+    "fileNote": "G5",
+    "measuredHz": 784.9,
+    "note": "G5",
+    "cents": 2
+  }
+]

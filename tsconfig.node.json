@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "lib": ["ES2022", "DOM"],
+    "types": ["node"],
+    "paths": { "$config/*": ["./config/*"] }
+  },
+  "include": ["src/env.d.ts", "electron/**/*.ts", "config/**/*.ts", "src/engine/**/*.ts", "src/sense/record.ts", "src/sense/replay.ts", "src/sense/decode.ts", "src/sense/gate.ts", "src/sense/errors.ts", "src/sense/types.ts", "tests/**/*.ts", "scripts/**/*.ts", "electron.vite.config.ts", "vitest.config.mts", "playwright.config.ts"]
+}

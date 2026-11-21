@@ -1,0 +1,130 @@
+/* "Concert hall at night" — design tokens. Fonts are bundled locally
+   (SIL OFL 1.1; see docs/CREDITS.md). Crimson is never used for text. */
+
+@import '@fontsource/cormorant-garamond/500.css';
+@import '@fontsource/cormorant-garamond/600.css';
+@import '@fontsource/cormorant-garamond/600-italic.css';
+@import '@fontsource/cormorant-sc/600.css';
+@import '@fontsource/source-sans-3/400.css';
+@import '@fontsource/source-sans-3/600.css';
+
+:root {
+  --bg: #140c10;
+  --stage-light: #2a1820;
+  --brass: #d4a93c;
+  --brass-15: rgba(212, 169, 60, 0.15);
+  --brass-40: rgba(212, 169, 60, 0.4);
+  --crimson: #7e1f2e;
+  --parchment: #f3e9d2;
+  --muted: rgba(243, 233, 210, 0.72);
+  --faint: rgba(243, 233, 210, 0.35);
+  --together: #9ccb8a;
+  --ragged: #e07a5f;
+  --panel: #1e1218;
+
+  --serif: 'Cormorant Garamond', 'Cormorant', Georgia, serif;
+  --smallcaps: 'Cormorant SC', 'Cormorant Garamond', Georgia, serif;
+  --sans: 'Source Sans 3', 'Source Sans Pro', system-ui, sans-serif;
+
+  --h1: 600 56px/60px var(--serif);
+  --h2: 600 36px/42px var(--serif);
+  --h3: 600 26px/32px var(--serif);
+  --body: 400 18px/28px var(--sans);
+
+  /* Inset that keeps the HUD clear of the curtain edges (curtains are
+     ~7.4 % of the stage width on each side). */
+  --hud-inset: 8.5%;
+  --strip-h: 64px;
+  --ease-curtain: cubic-bezier(0.2, 0.7, 0.2, 1);
+  color-scheme: dark;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: var(--bg);
+  color: var(--parchment);
+  font: var(--body);
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Cormorant defaults to old-style figures; tempi and numbers use lining
+   figures everywhere. The `font` shorthand used by headings and notes resets
+   per-element numeric settings, so this is applied to every element and
+   marked important (it only selects a glyph variant). */
+*,
+*::before,
+*::after {
+  font-feature-settings: 'lnum' 1 !important;
+}
+
+h1 { font: var(--h1); margin: 0 0 16px; letter-spacing: 0.01em; }
+h2 { font: var(--h2); margin: 0 0 12px; }
+h3 { font: var(--h3); margin: 0 0 8px; }
+p { margin: 0 0 12px; }
+
+.label {
+  font-family: var(--smallcaps);
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.12em;
+  text-transform: lowercase;
+}
+
+.tempo {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+.muted { color: var(--muted); }
+.together { color: var(--together); }
+.ragged { color: var(--ragged); }
+
+:focus-visible {
+  outline: 2px solid var(--parchment);
+  outline-offset: 3px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+kbd {
+  font-family: var(--smallcaps);
+  font-size: 18px;
+  letter-spacing: 0.08em;
+  border-bottom: 1px solid var(--brass);
+  padding: 0 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+:root[data-motion='reduce'] *,
+:root[data-motion='reduce'] *::before,
+:root[data-motion='reduce'] *::after {
+  animation-duration: 0.001ms !important;
+  transition-duration: 0.001ms !important;
+}
