@@ -6,6 +6,8 @@ Ensemble leaders cue an entry with a preparatory breath: the breath sets the tem
 
 The SmartSpectra breathing trace is the instrument. Built for the Presage SmartSpectra SDK Challenge 2026.
 
+**DEV post:** https://dev.to/faris-khan/upbeat-a-choir-that-comes-in-on-your-breath-2b24 · **Live demo:** https://www.youtube.com/watch?v=CyIoM0PCIkU · **Walkthrough:** https://youtu.be/4gLrL1Pff0o
+
 > Upbeat is a music practice tool. It reports musical timing only, never anything about breathing health, lung function, relaxation or stress. It never uses the microphone.
 
 ## Status
@@ -188,4 +190,4 @@ docs/            TIMING, RESULTS, PRIVACY, CREDITS, SDK-NOTES
 - String samples: VS Chamber Orchestra Community Edition (Versilian Studios), CC0.
 - Libraries: Tone.js, Svelte, Electron (MIT).
 
-Full list with licences: [docs/CREDITS.md](docs/CREDITS.md). The DEV post draft is in [docs/DEV-POST.md](docs/DEV-POST.md).
+Full list with licences: [docs/CREDITS.md](docs/CREDITS.md). The DEV post is [published on DEV](https://dev.to/faris-khan/upbeat-a-choir-that-comes-in-on-your-breath-2b24); its source is [docs/DEV-POST.md](docs/DEV-POST.md).
